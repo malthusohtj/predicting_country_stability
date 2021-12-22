@@ -1,0 +1,70 @@
+** Data Document (refer to data.csv for actual data)**
+
+Within our data.csv file, we have data for 179 countries over 10 years (2010-2019).
+Our data considers 11 independent variables and 1 dependent variable.
+Every row of data corresponds to 1 country for 1 year (e.g. Argentina 2015).
+Country and year take up the first 2 columns in our dataset.
+
+List of 11 Independent Variables (from left to right of data.csv):
+1. Literacy Rate
+    - Variable Name (in .csv): literacy_rate
+    - Numerical Range: 0 to 100 (percentage of population ages 15 and above)
+    - Meaning: The percentage of people ages 15 and above who can both read and write with understanding a short simple statement about their everyday life.
+    - URL: https://data.worldbank.org/indicator/SE.ADT.LITR.ZS
+2. CPIA Transparency, Accountability, and Corruption in the Public Sector
+    - Variable Name (in .csv): cpia_public
+    - Numerical Range: 1 to 6 (integer scores, 1 = low and 6 = high)
+    - Meaning: Assesses a political institution's by their accountability in overseeing institutions and public employee performance, access of civil society to information about public affairs, and extent of state capture by narrow vested interests.
+    - URL: https://data.worldbank.org/indicator/IQ.CPA.TRAN.XQ
+3. CPIA Policy for Social Inclusion/Equity Cluster Average
+    - Variable Name (in .csv): cpia_policy
+    - Numerical Range: 1 to 6 (integer scores, 1 = low and 6 = high)
+    - Meaning: Assesses a political institution's performance in ensuring gender equality, equity of public resource use, building of human resources, social protection, and environmental sustainability.
+    - URL: https://data.worldbank.org/indicator/IQ.CPA.SOCI.XQ
+4. Infant Mortality Rate
+    - Variable Name (in .csv): infant_mortality
+    - Numerical Range: 0 to 1,000 (per thousand live births per year)
+    - Meaning: Number of infants dying before reaching one year of age, per 1,000 live births in a given year.
+    - URL: https://data.worldbank.org/indicator/SP.DYN.IMRT.IN
+5. Poverty Headcount Ratio at National Poverty Lines
+    - Variable Name (in .csv): poverty_ratio
+    - Numerical Range: 0 to 100 (percentage of population)
+    - Meaning: Percentage of the population living below the national poverty line(s).
+    - URL: https://data.worldbank.org/indicator/SI.POV.NAHC
+6. Unemployment Rate
+    - Variable Name (in .csv): unemployment
+    - Numerical Range: 0 to 100 (percentage of total labour force)
+    - Meaning: Share of the labor force that is without work but available for and seeking employment.
+    - URL: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+7. Intentional Homicides
+    - Variable Name (in .csv): homicides
+    - Numerical Range: 0 to 100,000 (per 100,000 people)
+    - Meaning: Number of murder cases per 100,000 people.
+    - URL: https://data.worldbank.org/indicator/VC.IHR.PSRC.P5
+8. Suicide Mortality Rate
+    - Variable Name (in .csv): suicide_mortality
+    - Numerical Range: 0 to 100,000 (per 100,000 people)
+    - Meaning: Number of suicide deaths per 100,000 people.
+    - URL: https://data.worldbank.org/indicator/SH.STA.SUIC.P5
+9. Rural Population Percentage
+    - Variable Name (in .csv): rural
+    - Numerical Range: 0 to 100 (percentage of population)
+    - Meaning: Percentage of population residing in areas classified as rural.
+    - URL: https://data.worldbank.org/indicator/SP.RUR.TOTL.ZS
+10. Education Expense
+    - Variable Name (in .csv): education_exp
+    - Numerical Range: 0 to 100 (percentage of Gross National Income)
+    - Meaning: Adjusted savings for education expenditure, as percentage of Gross National Income.
+    - URL: https://data.worldbank.org/indicator/NY.ADJ.AEDU.GN.ZS
+11. Refugee Population
+    - Variable Name (in .csv): refugees
+    - Numerical Range: 0 or more (gross number of refugees)
+    - Meaning: Gross refugee population by country.
+    - URL: https://data.worldbank.org/indicator/SM.POP.REFG.OR
+
+Dependent Variable (right-most column in data.csv):
+1. Fragile States Index (FSI) Score
+    - Variable Name (in .csv): fsi
+    - Numerical Range: 0 to 120 (decimal score, 0 = perfectly stable and 120 = perfectly unstable)
+    - Meaning: A score released by the Fund for World Peace annually for 179 countries to measure their national holistic stability. Considers political, social, economic, cohesion, and security developments within the country.
+    - URL: https://fragilestatesindex.org/excel/
